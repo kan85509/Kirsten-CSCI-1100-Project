@@ -1,0 +1,66 @@
+body {
+	background-color:yellow;
+	
+}
+
+#header {
+	position: relative;
+	width: 97.5%;
+	margin-top: -1px;
+	height: 60px;
+	background-color: #fea6dd;
+	margin-bottom: 10px;
+	text-align: center;
+	color:white;
+	font-size:50px;
+	clear: both;
+}
+
+#left {
+	position:fixed;
+	float:left;
+	z-index: 1;
+	margin-top: 100px;
+	color:white;
+	font-size:30px;
+
+}
+
+#main {
+float: right;
+position: relative;
+width: 50%;
+height: 850px;
+padding:20px;
+margin-right:150px;
+background-color:magenta;
+margin-bottom:10px;
+}
+
+table {
+	background-color:yellow;
+}
+
+#main > img {
+height:350px;
+width:390px;	
+}
+
+th {
+	font-size:44px;
+	font-family:Arial;
+	color:white;
+}
+
+td img {
+	height: 180px;
+	width: 180px;
+	box-shadow: none;
+}
+#footer {
+	
+}
+
+a:hover { 
+    background-color: green;
+}
